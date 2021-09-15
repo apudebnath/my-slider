@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Slider</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin:0px;
+        }
+        .title h1{
+            color: white;
+            margin:20px;
+            text-align:center;
+            font-size: 40px;
+            position:absolute;
+        }
+        .slider{
+            width: 100%;
+        }
+        .slider img{
+            width: 100%;
+            height: 620px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h1>Exploring Slider</h1>
+            <div class="slider">
+                <img id="slider-img" src="images/img-1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="slider.js"></script>
+    
+</body>
+</html>
